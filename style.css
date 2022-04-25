@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+
+body{
+position: relative;
+width: 100%;
+min-height: 100vh;
+display: flex;
+align-content: space-between;
+margin: 10px 10px 10px 10px;
+background: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGNvbXB1dGVyJTIwc2NpZW5jZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: aliceblue;
+}
+main{
+  margin-top: 280px;
+  padding-left: 100px;
+}
+#links{
+  padding-top: 20px;
+  color: white;
+  font-size: medium;
+}
+.mylinks{
+  padding-left: 50px;
+}
+nav{
+display: flex;
+align-content:center;
+}
+.networking-1{
+  padding: 20px 20px 20px 20px;
+}
+
+
+
