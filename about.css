@@ -1,0 +1,49 @@
+body {
+  display: flex;
+background: url("https://images.unsplash.com/photo-1650871778463-71922f196eb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU0fGlVSXNuVnRqQjBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+background-repeat: no-repeat;
+background-size: cover;  
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px 10px 10px 10px;
+}
+.my-name{
+  color: white ;
+  padding: 20px 20px 20px 100px;
+}
+.right {
+  left: 15%;
+  color: aliceblue;
+  text-align: center;
+}
+.right-2{
+  left: 45%;
+  color: aliceblue;
+}
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  
+}
+.content {
+  padding: 20px 30px;
+  background-color: rgba(0, 0, 0, 0.276);
+  position: relative;
+  border-radius: 6px;
+}
+#links{
+  padding-top: 20px;
+  color: white;
+  font-size: medium;
+}
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
