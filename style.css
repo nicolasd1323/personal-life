@@ -37,3 +37,12 @@ align-content:center;
 
 
 
+@media only screen and (max-width: 600px) { 
+      main{
+        margin-top: 180px;
+        padding-left: 50px;
+        font-size: 0.7rem
+
+      }
+
+    }

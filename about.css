@@ -1,15 +1,16 @@
 body {
-  display: flex;
+display: flex;
 background: url("https://images.unsplash.com/photo-1648071343677-fac075603d3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzNXxDRHd1d1hKQWJFd3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
 background-repeat: no-repeat;
 background-size: cover;  
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 margin: 10px 10px 10px 10px;
+color: aliceblue;
 }
-.my-name{
+/* .my-name{
   color: white ;
   padding: 20px 20px 20px 100px;
-}
+} */
 .right {
   left: 15%;
   color: aliceblue;
@@ -50,4 +51,12 @@ margin: 10px 10px 10px 10px;
 .nav-1{
   display: flex;
   justify-content:space-around;
+}
+
+@media only screen and (max-width: 600px) { 
+
+  .container {
+  position:initial;
+  width: 80%;
+}
 }
