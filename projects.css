@@ -1,0 +1,69 @@
+body {
+background: url("https://images.unsplash.com/photo-1648071343677-fac075603d3c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIzNXxDRHd1d1hKQWJFd3x8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+background-repeat: no-repeat;
+background-size: cover;  
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px 10px 10px 10px;
+color: aliceblue;
+
+}
+#links{
+  padding-top: 20px;
+  color: white;
+  font-size: medium;
+}
+.nav-1{
+  margin-top: 40px;
+  display: flex;
+  justify-content:space-around;
+}
+main{
+display: flex;
+}
+#cards{
+  display: flex;
+  margin: 10px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.flip-card {
+  width: 250px;
+  height: 300px;
+  margin: 160px 50px 50px 50px;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color:rgba(0, 0, 0, 0.416);
+  color:white;
+  transform: rotateY(180deg);
+}
+a{
+  color: aliceblue;
+}
+/*  thanks to https://www.w3schools.com/howto/howto_css_flip_card.asp helping design my flip cards */
